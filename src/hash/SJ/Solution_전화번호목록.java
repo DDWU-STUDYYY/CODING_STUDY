@@ -1,4 +1,4 @@
-package hash;
+package hash.SJ;
 
 import java.util.*;
 
