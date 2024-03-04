@@ -2,7 +2,7 @@ package hash.JH;
 
 import java.util.*;
 
-class Programmars_의상 {
+class 의상 {
     public int solution(String[][] clothes) {
 
         HashMap<String,Integer> map = new HashMap<>();

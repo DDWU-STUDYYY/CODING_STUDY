@@ -3,7 +3,7 @@ package hash.JH;
 import java.util.HashMap;
 import java.util.Map;
 
-class Programmers_전화번호목록 {
+class 전화번호목록 {
     public boolean solution(String[] phone_book) {
 
         Map<String,Integer> map = new HashMap<>();
