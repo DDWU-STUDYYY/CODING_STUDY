@@ -3,7 +3,7 @@ package hash.JH;
 import java.util.HashSet;
 import java.util.Set;
 
-class Programmers_폰켓몬 {
+class 폰켓몬 {
     public int solution(int[] nums) {
         int answer = 0;
 
