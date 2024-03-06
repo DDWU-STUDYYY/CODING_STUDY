@@ -7,6 +7,12 @@ public class Solution_올바른괄호  {
 
     Stack<Character> st = new Stack<>();
 
+    st.forEach(i -> {
+      if (i > 1) {
+
+      }
+    });
+
       for (char ch : s.toCharArray()) {
         if (ch == '(') {
           st.push(ch);
