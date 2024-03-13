@@ -127,6 +127,93 @@ public static Comparable<Student> comp = new Comparable<Student>(){
   public int compare(MyClass o1, MyClass o2){
    return o2.value - o1.value;
 }
+```
+
+* 참조 링크 : https://velog.io/@minseojo/Java-Comparable-Comparator
+
+* Comparable Comparator 
+
+1. Comparable 
+```markdown
+
+@Override 
+  public int compareTo(Object o) {
+     User user = (User) o;
+        if(this.age > user.age) 
+            return 1;
+        else if (this.age == user.age ) 
+            return 0;
+        else
+            return -1;
+ }
+}
+
+ public static void referenceCompare() {
+    User user1 = new User("조민서" , 100);
+    User user3 = new User("나비", 3000);
+    User user2 = new User("가오리" , 40);
+  
+   List<User> list = new ArrayList<>();
+  
+   list.add(user1);
+   list.add(user2);
+   list.add(user3);
+
+   Collections.sort(list);
+   for(User user : list){
+     System.out.println(user.name + " " + user.age);
+}
+}
+
+  // 근데 위의 방법은 오버플로우가 발생할 수 있다. 
+
+```
+
+* 그러면 아래와 같은 방법으로 해보자 
+
+```markdown
+@Override 
+public int compareTo(Object o) {
+  User user = (User) o;
+  return Integer.compare(this.age, user.age);
+}
+
+// 역순으로 정려하고 싶다면 ? 
+
+@Override
+public int compareTo(Object o) {
+   User user  = (User) o;
+   return Integer.compare(user.age, this.age);
+}
+
+```
+
+* Comparator 
+```markdown
+
+comp.compare(user1, user2);
+
+// 람다식을 사용하자 
+// Comparable 와 Comparator 인터페이스를 구현하지 않고 즉석으로 할 수 있다. 
+
+list.sort((User a, User b) -> Integer.compare(a.age,b.age));
+
+
+```
+
+* 우선순위큐의 정렬 
+```markdown
+
+@Override
+public int compareTo(Object o) {
+   User user = (User) o;
+    if(this.name == user.name) {
+        return Integer.compare(this.age, user.age); // 이름이 같으면 나이는 오름차순 정렬 
+}  else {
+        return this.name.compareTo(user.name); // 이름이 같으면 이름으로 오름차순 정렬을 해준다 
+}
+
+
 
 
 
