@@ -1,6 +1,6 @@
 package brute_force.JH;
 
-class 최소직사각형 {
+class 모의고사 {
     public int solution(int[][] sizes) {
         int max_w = 0;
         int max_h = 0;
