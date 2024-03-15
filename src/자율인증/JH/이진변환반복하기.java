@@ -33,5 +33,7 @@ class 이진변환반복하기 {
     }
 }
 /*
- 킹받아... 문자열은 equals 로 비교안하고 = "1" 이래서 해맴... 화난다 ! 문자열은 equals 메서드로 비교하고 string 의 길이는 length() 로 구한다
+ 킹받아... 문자열은 equals 로 비교안하고 = "1" 이래서 해맴... 화난다 ! 문자열은 equals 메서드로 비교하고 string 의 길이는 length() 로 구한다.
+ 그리고 자바에 이진수로 바꿀 수 있는 메서드를 기억하자. Integer.toBinaryString(바꿀 숫자)
+ https://www.techiedelight.com/ko/convert-number-to-binary-java/
  */
