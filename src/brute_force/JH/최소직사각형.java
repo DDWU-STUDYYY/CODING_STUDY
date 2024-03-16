@@ -1,7 +1,7 @@
 package brute_force.JH;
 
 import java.util.*;
-class Solution {
+class 최소직사각형 {
     public int[] solution(int[] answers) {
         // 1번 따로 
         
