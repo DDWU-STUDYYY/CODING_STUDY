@@ -2,6 +2,7 @@
 
 ## 2월 ~ 3월 
 - [프로그래머스 알고리즘 고득점 KIT](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+- [코딩테스트 깃헙 레포](https://github.com/tony9402/baekjoon)
 - 1 ~ 2단계 풀기
 - 주 5회 1일 1문제
 
