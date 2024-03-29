@@ -1,4 +1,4 @@
-package dfs_bfs;
+package dfs_bfs.SJ;
 
 import java.util.*;
 
@@ -24,7 +24,6 @@ class Solution_타겟넘버 {
       }
 
     }
-
 
   }
   public int solution(int[] numbers, int target) {
