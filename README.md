@@ -8,4 +8,17 @@
 
 ## 목표
 - SJ : 1일 1문제, 각 단원 끝나고 배운 점 노션에 정리하기. 4월부턴 3단계도 풀기
-- JH : 서진언니와 동일 
+- JH : 서진언니와 동일
+
+## 빈출 유형 
+Chapter 1. 자료구조
+
+Chapter 2. 완전 탐색
+
+Chapter 3. 탐욕법 Greedy Algorithm
+
+Chapter 4. DFS, BFS, 백트래킹
+
+Chapter 5. 이분 탐색 Binary Search
+
+Chapter 6. 동적 계획법 Dynamic Programming
